@@ -25,7 +25,7 @@ public class OAuthData {
 	
 	static long latestId = 0;
 	synchronized public String nextId() {
-		return ""+(++latestId);
+		return "1";
 	}
 	
 	private List<OAuthListener> listeners = new CopyOnWriteArrayList<OAuthListener>();
